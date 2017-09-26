@@ -1,0 +1,21 @@
+﻿body {
+  font-size: 14px;
+  color: #444;
+  font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif;
+}
+ul,ol,li{list-style:none;padding:0;margin:0;}
+a{text-decoration:none;color:#333333;}
+a:hover{text-decoration:none;}
+.marTB{margin:20px 0;}
+.block-space{width:100%;height:50px;}
+.band{padding-top:50px;padding-bottom:50px;}
+@media (max-width:767px){
+    .block-space{height:20px;}
+    .band{padding-top:20px;padding-bottom:20px;}
+}
+.container{width: 1170px;}
+#navigation{float: right;width:836px}
+.navbar_header{width: 250px;}
+#navigation ul li{float: left;font-size: 16px;}
+#navigation ul li a{display:inline-block;padding: 0 30px;height: 80px;line-height: 80px;color: #777;}
+#navigation ul li a.active,#navigation ul li a:hover{color: #25afe6;border-bottom: 1px solid #25afe6;}
