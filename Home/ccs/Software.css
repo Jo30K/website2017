@@ -1,0 +1,38 @@
+﻿.programme-container h3{font-size:40px;margin-bottom:30px;}
+.programme-container img{max-width:100%;}
+.bgColor{background-color:#f6fbfe;}
+.subMenu {background-color:#f2f2f2;z-index:999;}
+.subMenu  .inner{overflow:auto;}
+.subMenu  .inner a{display:block;width:25%;padding:15px 10px;text-align:center;box-sizing:border-box;float:left;font-size:18px;}
+.subMenu  .inner .active{background-color:#25afe6;color:#fff;}
+
+.programme-container  p{font-size:18px;}
+/*banner*/
+.programme-banner{width:100%;height:338px;background-image:url(../img/software/sof-banner-img.jpg);background-size:cover;background-position:center;}
+/*programme-part1*/
+.programme-part1{text-align:center;}
+.programme-part1-txt , .programme-part3-txt{width:80%;text-align:left;margin-left:auto;margin-right:auto;margin-bottom:30px;}
+/*programme-part2*/
+.programme-part2{text-align:center;}
+/*programme-part3*/
+.programme-part3{background-image:url(../img/programme/programme-part3-bg.jpg);background-size:cover;background-position:center;text-align:center;color:#fff;}
+.programme-part3 .band{padding-bottom:0;}
+/*programme-part4*/
+.programme-part4-block .l-block{float:left;width:50%;padding-right:30px;box-sizing:border-box;}
+.programme-part4-block .r-block{float:right;width:50%;}
+.programme-part4-block-desc{margin-top:50px;}
+@media (max-width:991px){
+        .programme-part4-block-desc{margin-top:0px;}
+}
+@media (max-width:767px){
+    .programme-banner{height:300px;}
+    .programme-container  p{font-size:14px;}
+    .programme-part1-txt , .programme-part3-txt{width:100%;}
+    .programme-container h3{font-size:24px;}
+}
+@media (max-width:480px){
+    .programme-container h3{font-size:18px;margin-bottom:15px;}
+    .programme-part1-txt, .programme-part3-txt{margin-bottom:15px;}
+    .programme-part4-block .l-block{float:none;width:100%;padding-right:0px;margin-bottom:15px;}
+.programme-part4-block .r-block{float:none;width:100%;margin-bottom:15px;}
+}
